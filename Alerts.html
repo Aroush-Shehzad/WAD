@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Alerts</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+    
+    <div class="container mt-5">
+        <h2>Alerts</h2>
+    
+        <h3>Registration Successful</h3>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Success!</strong> Your registration is complete. Welcome!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    
+        <h3>Login Attempt Failed</h3>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Error!</strong> Invalid username or password. Please try again.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    
+        <h3>Assignment Submitted</h3>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <strong>Assignment submitted!</strong> Your assignment has been successfully submitted.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
